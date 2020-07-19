@@ -1,32 +1,32 @@
-# linter:
-# # https://help.sider.review/getting-started/custom-configuration
+linter:
+# https://help.sider.review/getting-started/custom-configuration
 
-#   # https://help.sider.review/tools/others/misspell
-#   misspell:
-#     exclude:
-#       - vendor
-#       - "**/*.min.js"
-#       - exclude_file.rb
-#     targets:
-#       - target_directory
-#       - another_target_directory/foo.rb
-#       - bar.rb
-#     locale: UK
-#     ignore: center,behavior
+  # https://help.sider.review/tools/others/misspell
+  misspell:
+    exclude:
+      - vendor
+      - "**/*.min.js"
+      - exclude_file.rb
+    targets:
+      - target_directory
+      - another_target_directory/foo.rb
+      - bar.rb
+    locale: US
+    ignore: center,behavior
 
-#   # https://help.sider.review/tools/csharp/fxcop
-#   fxcop:
-#     root_dir: src/
+  # https://help.sider.review/tools/csharp/fxcop
+  fxcop:
+    root_dir: src/
 
-# # https://help.sider.review/getting-started/custom-configuration#ignore
-# ignore:
-#   - "*.pdf"
-#   - "*.mp4"
-#   - "images/**"
+# https://help.sider.review/getting-started/custom-configuration#ignore
+ignore:
+  - "*.pdf"
+  - "*.mp4"
+  - "images/**"
 
-# # https://help.sider.review/getting-started/custom-configuration#branchesexclude
-# branches:
-#   exclude:
-#     - master
-#     - development
-#     - /^release-.*$/
+# https://help.sider.review/getting-started/custom-configuration#branchesexclude
+branches:
+  exclude:
+    - master
+    - development
+    - /^release-.*$/
