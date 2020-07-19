@@ -3,7 +3,7 @@ linter:
 
   # https://help.sider.review/tools/csharp/fxcop
   fxcop:
-    root_dir: src/
+    root_dir: Assets/Scripts
 
 # https://help.sider.review/getting-started/custom-configuration#ignore
 ignore:
