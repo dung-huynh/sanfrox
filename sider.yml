@@ -1,0 +1,19 @@
+linter:
+  # https://help.sider.review/getting-started/custom-configuration
+
+  # https://help.sider.review/tools/csharp/fxcop
+  fxcop:
+    root_dir: Assets/Scripts
+
+# https://help.sider.review/getting-started/custom-configuration#ignore
+ignore:
+  - "*.pdf"
+  - "*.mp4"
+  - "images/**"
+
+# https://help.sider.review/getting-started/custom-configuration#branchesexclude
+branches:
+  exclude:
+    - master
+    - development
+    - /^release-.*$/
