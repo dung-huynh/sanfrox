@@ -1,5 +1,5 @@
 linter:
-# https://help.sider.review/getting-started/custom-configuration
+  # https://help.sider.review/getting-started/custom-configuration
 
   # https://help.sider.review/tools/csharp/fxcop
   fxcop:
